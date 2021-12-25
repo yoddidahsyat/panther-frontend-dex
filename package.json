@@ -1,7 +1,7 @@
 {
   "name": "pantherswap-frontend-dex",
   "description": "PantherSwap Dex Interface",
-  "homepage": ".",
+  "homepage": "https://digichain.finance",
   "private": true,
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
