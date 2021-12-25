@@ -12,6 +12,8 @@ import Pool from './Pool'
 import PoolFinder from './PoolFinder'
 import RemoveLiquidity from './RemoveLiquidity'
 import Swap from './Swap'
+import Launchpad from './Launchpad'
+import Token from './Token'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 import { EN, allLanguages } from '../constants/localisation/languageCodes'
 import { LanguageContext } from '../hooks/LanguageContext'
@@ -130,6 +132,9 @@ export default function App() {
                       <Route exact strict path="/swap" component={Swap} />
                       <Route exact strict path="/find" component={PoolFinder} />
                       <Route exact strict path="/pool" component={Pool} />
+                      {/* <Route exact strict path="/farm" component={Pool} /> */}
+                      <Route exact strict path="/launchpad/create" component={Launchpad} />
+                      <Route exact strict path="/token/create" component={Token} />
                       <Route exact path="/add" component={AddLiquidity} />
                       <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
 

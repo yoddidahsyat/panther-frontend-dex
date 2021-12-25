@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pantherswap.com/',
+    href: '#',
   },
   {
     label: 'Trade',
@@ -22,34 +22,48 @@ const config: MenuEntry[] = [
     ],
   },
   {
+    label: 'Launchpad',
+    icon: 'IfoIcon',
+    items: [
+      {
+        label: 'Create Launchpad',
+        href: '/launchpad/create'
+      },
+      {
+        label: 'Create Token',
+        href: '/token/create'
+      }
+    ]
+  },
+  {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pantherswap.com/farms',
+    href: 'farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pantherswap.com/pools',
+    href: 'pools',
   },
   {
     label: 'Jungles',
     icon: 'JungleIcon',
-    href: 'https://pantherswap.com/jungles',
+    href: 'jungles',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pantherswap.com/lottery',
+    href: 'lottery',
   },
   {
     label: 'IPO',
     icon: 'IfoIcon',
-    href: 'https://pantherswap.com/ipo',
+    href: 'ipo',
   },
   {
     label: 'Referrals',
     icon: 'ReferralIcon',
-    href: 'https://pantherswap.com/referrals',
+    href: 'referrals',
   },
   {
     label: 'Audits',
