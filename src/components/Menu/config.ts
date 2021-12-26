@@ -36,7 +36,7 @@ const config: MenuEntry[] = [
     ]
   },
   {
-    label: 'Farms',
+    label: 'Farming',
     icon: 'FarmIcon',
     href: 'farms',
   },
@@ -50,48 +50,48 @@ const config: MenuEntry[] = [
     icon: 'JungleIcon',
     href: 'jungles',
   },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'lottery',
-  },
-  {
-    label: 'IPO',
-    icon: 'IfoIcon',
-    href: 'ipo',
-  },
-  {
-    label: 'Referrals',
-    icon: 'ReferralIcon',
-    href: 'referrals',
-  },
-  {
-    label: 'Audits',
-    icon: 'ShieldIcon',
-    href: 'https://docs.pantherswap.com/security/audits',
-  },
-  {
-    label: 'Features',
-    icon: 'FeatureIcon',
-    items: [
-      {
-        label: 'Automatic LP',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
-      },
-      {
-        label: 'Automatic Burning',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
-      },
-      {
-        label: 'Harvest Lockup',
-        href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
-      },
-      {
-        label: 'Anti-Whale',
-        href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
-      },
-    ],
-  },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: 'lottery',
+  // },
+  // {
+  //   label: 'IPO',
+  //   icon: 'IfoIcon',
+  //   href: 'ipo',
+  // },
+  // {
+  //   label: 'Referrals',
+  //   icon: 'ReferralIcon',
+  //   href: 'referrals',
+  // },
+  // {
+  //   label: 'Audits',
+  //   icon: 'ShieldIcon',
+  //   href: 'https://docs.pantherswap.com/security/audits',
+  // },
+  // {
+  //   label: 'Features',
+  //   icon: 'FeatureIcon',
+  //   items: [
+  //     {
+  //       label: 'Automatic LP',
+  //       href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+  //     },
+  //     {
+  //       label: 'Automatic Burning',
+  //       href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
+  //     },
+  //     {
+  //       label: 'Harvest Lockup',
+  //       href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+  //     },
+  //     {
+  //       label: 'Anti-Whale',
+  //       href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'Price Charts',
   //   icon: 'ChartIcon',
@@ -168,28 +168,28 @@ const config: MenuEntry[] = [
   //     },
   //   ],
   // },
-  {
-    label: 'Analytics',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: 'https://pantherswap.info',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://pantherswap.info/tokens',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://pantherswap.info/pairs',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://pantherswap.info/accounts',
-      },
-    ],
-  },
+  // {
+  //   label: 'Analytics',
+  //   icon: 'InfoIcon',
+  //   items: [
+  //     {
+  //       label: 'Overview',
+  //       href: 'https://pantherswap.info',
+  //     },
+  //     {
+  //       label: 'Tokens',
+  //       href: 'https://pantherswap.info/tokens',
+  //     },
+  //     {
+  //       label: 'Pairs',
+  //       href: 'https://pantherswap.info/pairs',
+  //     },
+  //     {
+  //       label: 'Accounts',
+  //       href: 'https://pantherswap.info/accounts',
+  //     },
+  //   ],
+  // },
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
@@ -199,29 +199,25 @@ const config: MenuEntry[] = [
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      // {
-      //   label: 'Voting',
-      //   href: 'https://voting.pancakeswap.finance',
-      // },
       {
-        label: 'Github',
-        href: 'https://github.com/pantherswap',
+        label: 'Website',
+        href: 'https://prodigichain.com',
       },
       {
-        label: 'Docs',
-        href: 'https://docs.pantherswap.com',
+        label: 'Github',
+        href: 'https://github.com/prodigichain',
+      },
+      {
+        label: 'Whitepaper',
+        href: 'https://prodigichain.com/whitepaper/digipaper.pdf',
       },
       {
         label: 'Roadmap',
-        href: 'https://docs.pantherswap.com/roadmap',
+        href: 'https://prodigichain.com/roadmap.html',
       },
       {
         label: 'Blog',
-        href: 'https://pantherswap.medium.com',
-      },
-      {
-        label: 'Voting',
-        href: 'https://voting.pantherswap.com/',
+        href: 'https://prodigichain.medium.com',
       },
     ],
   },

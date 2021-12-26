@@ -22,17 +22,17 @@ const VersionBar = () => {
   return (
     <Wrapper>
       <Text bold mr="16px">
-        You are using PantherSwap AMM exchange.
+        Digidex 2021 | by Digichain
       </Text>
       <Button
         variant="subtle"
         as={Link}
-        href="https://docs.pantherswap.com/amm-launch"
+        href="https://bscscan.com/token/0x4732a86106064577933552fcea993d30bec950a5#balances"
         endIcon={<HelpIcon color="white" />}
         size="sm"
         ml="16px"
       >
-        LP Migration
+        Token Verifier
       </Button>
     </Wrapper>
   )
