@@ -1,6 +1,6 @@
 {
-  "name": "pantherswap-frontend-dex",
-  "description": "PantherSwap Dex Interface",
+  "name": "digidex",
+  "description": "Digichain Dex Interface",
   "homepage": "https://digichain.finance",
   "private": true,
   "dependencies": {

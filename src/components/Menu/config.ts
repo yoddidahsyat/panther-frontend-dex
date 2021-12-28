@@ -25,10 +25,10 @@ const config: MenuEntry[] = [
     label: 'Launchpad',
     icon: 'IfoIcon',
     items: [
-      {
-        label: 'Create Launchpad',
-        href: '/launchpad/create'
-      },
+      // {
+      //   label: 'Create Launchpad',
+      //   href: '/launchpad/create'
+      // },
       {
         label: 'Create Token',
         href: '/token/create'
@@ -115,33 +115,37 @@ const config: MenuEntry[] = [
   //   ],
   // },
   {
-    label: 'Listings',
+    label: 'Ecosystem',
     icon: 'ListingIcon',
     items: [
       {
         label: 'BscScan',
-        href: 'https://bscscan.com/token/0x1f546ad641b56b86fd9dceac473d1c7a357276b7',
+        href: 'https://bscscan.com/token/0x4732a86106064577933552fcea993d30bec950a5',
       },
       {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+        label: 'Prodigichain',
+        href: 'https://prodigichain.com',
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/pantherswap',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/pantherswap/',
-      },
-      {
-        label: 'LiveCoinWatch',
-        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
-      },
-      {
-        label: 'Vfat',
-        href: 'https://vfat.tools/bsc/panther',
-      },
+      // {
+      //   label: 'DappRadar',
+      //   href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+      // },
+      // {
+      //   label: 'CoinGecko',
+      //   href: 'https://www.coingecko.com/en/coins/pantherswap',
+      // },
+      // {
+      //   label: 'CoinMarketCap',
+      //   href: 'https://coinmarketcap.com/currencies/pantherswap/',
+      // },
+      // {
+      //   label: 'LiveCoinWatch',
+      //   href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+      // },
+      // {
+      //   label: 'Vfat',
+      //   href: 'https://vfat.tools/bsc/panther',
+      // },
     ],
   },
   // {
