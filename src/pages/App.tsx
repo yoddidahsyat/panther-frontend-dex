@@ -138,7 +138,7 @@ export default function App() {
                       <Route exact strict path="/token/create" component={Token} />
                       <Route exact path="/add" component={AddLiquidity} />
                       <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
-                      {/* <Route exact strict path="/" component={Home} /> */}
+                      <Route exact strict path="/" component={Home} />
 
                       {/* Redirection: These old routes are still used in the code base */}
                       <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />
